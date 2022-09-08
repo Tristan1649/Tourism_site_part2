@@ -1,0 +1,5 @@
+
+venv/
+migrate.sg
+.env/
+__pycache__
