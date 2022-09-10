@@ -43,7 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog.apps.BlogConfig',
+    'djoser',
     'rest_framework',
+    'accounts'
+    
 ]
 
 MIDDLEWARE = [
@@ -118,7 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'RU'
+LANGUAGE_CODE = 'en-US'
 
 TIME_ZONE = 'Asia/Bishkek'
 
